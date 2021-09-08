@@ -1,4 +1,4 @@
-# @surajr/react-profile-image
+# react-profile-image
 
 > React Profile Image Component
 
@@ -81,6 +81,6 @@ export default App
 
 ## License
 
-MIT © [surajraccha](https://github.com/surajraccha)
+MIT © [surajraccha](https://github.com/surajraccha/react-profile-image/blob/main/LICENSE.md)
 
 This project is licensed under the terms of the **MIT** license.
