@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save @surajr/react-profile-image
+npm install --save react-profile-image
 ```
 
 ## Usage
