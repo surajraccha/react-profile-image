@@ -50,7 +50,7 @@ const App = () => {
 export default App
 ```
 
-# Result
+## Result
 
 <img src="./result-example.png" alt="Result"/>
 
