@@ -13,18 +13,74 @@ npm install --save @surajr/react-profile-image
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react';
+import myImage from './image.png';
+import  ReactProfileImage  from 'react-profile-image';
 
-import MyComponent from '@surajr/react-profile-image'
-import '@surajr/react-profile-image/dist/index.css'
+const App = () => {
+  return (
+      <div style={{ display: "flex" }}>
+       <ReactProfileImage imageURL={myImage}/>
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+       <div style={{ width: "10px" }}/>
+        
+       <ReactProfileImage
+          imageURL={myImage}
+          borderColor="#321124"
+          imageWidth="150"
+          imageHeight="180"
+          borderRadius="60"
+          hoverEffect={false}
+        />
+
+        <div style={{ width: "10px" }}/>
+
+        <ReactProfileImage
+          imageURL={myImage}
+          borderColor="#66A5CC"
+          imageWidth="150"
+          imageHeight="150"
+          borderWidth="5"
+        />
+
+      </div>
+       );
 }
+
+export default App
 ```
+
+# Result
+
+<img src="./result-example.png" alt="Result"/>
+
+## Adding hover effect
+
+```jsx
+<ReactProfileImage
+  imageURL={photo}
+  borderColor="#321124"
+  imageWidth="150"
+  imageHeight="150"
+  borderWidth="3"
+  hoverEffect={true}
+/>
+```
+
+# Properties
+
+| Propertie    | Description                    |
+| ------------ | ------------------------------ |
+| imageURL     | The image                      |
+| imageWidth   | The image's width              |
+| imageHeight  | The image's height             |
+| borderColor  | The border color               |
+| borderWidth  | The border width               |
+| hoverEffect  | The hover Effect               |
+| borderRadius | The border radius(default 50%) |
 
 ## License
 
 MIT © [surajraccha](https://github.com/surajraccha)
+
+This project is licensed under the terms of the **MIT** license.
