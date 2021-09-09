@@ -1,7 +1,7 @@
 import React from 'react';
-import myImage from './image.png';
+import myImage from './image.jpg';
 import  ReactProfileImage  from '@surajr/react-profile-image';
-import '@surajr/react-profile-image/dist/index.css';
+// import '@surajr/react-profile-image/dist/index.css';
 
 const App = () => {
   return (
