@@ -52,7 +52,7 @@ export default App
 
 ## Result
 
-<img src="./result-example.png" alt="Result"/>
+<img src="./result-example.pn" alt="Result"/>
 
 ## Adding hover effect
 
